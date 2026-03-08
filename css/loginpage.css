@@ -1,0 +1,160 @@
+main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+figure {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+form {
+    width: 270px;
+    margin: auto;
+}
+
+form label {
+    display: flex;
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin: 3rem 0;
+}
+
+form .inputField {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border: 1px solid #565454;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 16px;
+}
+
+form .leftSvg {
+    position: absolute;
+}
+
+form .formInput {
+    position: relative;
+    display: flex;
+    left: 40px;
+    display: flex;
+    outline: none;
+    appearance: none;
+    border: none;
+    width: 60%;
+    padding: 8px;
+    background: none;
+}
+
+#seePassword {
+    position: absolute;
+    appearance: none;
+    border: none;
+    background: none;
+    right: 10px;
+    cursor: pointer;
+}
+
+form .button {
+    font-size: 1.6rem;
+    font-weight: medium;
+    color: white;
+    background-color: #6c4be6;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 1rem;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#image {
+    width: 35.126rem;
+    height: 37.02rem;
+   justify-self: flex-end;
+}
+
+#image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.errMssgP {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(230, 42, 42);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+    /* background-color: #565454; */
+}
+
+#successWrapper {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+body {
+    position: relative;
+}
+
+#successWrapper2 {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    margin: auto;
+    width: 370px;
+    height: 370px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* box-shadow: 0 100 40px rgba(0, 0, 0, 0.25); */
+    box-shadow: 0 0 0 100vw rgba(138, 127, 127, 0.5); 
+}
+
+#successMssg {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-align: center;
+}
+
+#successWrapper img {
+    width: 5rem;
+    height: 5rem;
+}
